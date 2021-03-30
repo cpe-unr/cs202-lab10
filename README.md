@@ -1,6 +1,6 @@
 # Lab 10: Overloading and Overriding
 
-In this lab, you will review this documentation and implement
+In this lab, you will review the provided documentation and implement
 the classes and methods as defined here.
 
 ## Implementation
