@@ -31,6 +31,9 @@ Given the provided code in the `main` function, your output should be
 The full documentation for the project is here: https://cpe-unr.github.io/cs202-lab10/html/index.html
 This documentation tells you which classes must be implemented in detail.
 
+__A note on the documentation__: All the classes and methods are documented, however there may be links to source that do not work. The links are to source
+code that you are required to create.
+
 ## Turning in the Lab
 
 Turn in your Github URL when the lab is complete.
