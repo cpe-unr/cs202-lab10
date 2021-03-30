@@ -27,6 +27,10 @@ Given the provided code in the `main` function, your output should be
     Amount Eaten: 10
 
 
+## Full Project Documentation
+The full documentation for the project is here: https://cpe-unr.github.io/cs202-lab10/html/index.html
+This documentation tells you which classes must be implemented in detail.
+
 ## Turning in the Lab
 
 Turn in your Github URL when the lab is complete.
