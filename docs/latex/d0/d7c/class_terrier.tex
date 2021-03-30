@@ -1,0 +1,106 @@
+\hypertarget{class_terrier}{}\doxysection{Terrier Class Reference}
+\label{class_terrier}\index{Terrier@{Terrier}}
+
+
+{\ttfamily \#include $<$Terrier.\+h$>$}
+
+Inheritance diagram for Terrier\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d0/d7c/class_terrier}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_terrier_a9f9bd0fb588ab3dfa929d960723c6aa4}\label{class_terrier_a9f9bd0fb588ab3dfa929d960723c6aa4}} 
+{\bfseries Terrier} (const std\+::string \&name)
+\item 
+void \mbox{\hyperlink{class_terrier_aab21b773d060fe64e8542925cc7819df}{eat}} (int amount) override
+\item 
+void \mbox{\hyperlink{class_terrier_a552b4ce2c0c5c1dd533d9a9ada162280}{speak}} (std\+::string text) override
+\item 
+void \mbox{\hyperlink{class_terrier_a055bb23c21c25d698c42ce328918acf3}{speak}} (std\+::string text, int volume) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_terrier_a696a0e2227f16baf5186cb9debc9e92d}{operator$<$$<$}} (std\+::ostream \&out, const \mbox{\hyperlink{class_terrier}{Terrier}} \&terrier)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+The terrier class represents a particular type of \mbox{\hyperlink{class_dog}{Dog}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_terrier_aab21b773d060fe64e8542925cc7819df}\label{class_terrier_aab21b773d060fe64e8542925cc7819df}} 
+\index{Terrier@{Terrier}!eat@{eat}}
+\index{eat@{eat}!Terrier@{Terrier}}
+\doxysubsubsection{\texorpdfstring{eat()}{eat()}}
+{\footnotesize\ttfamily void Terrier\+::eat (\begin{DoxyParamCaption}\item[{int}]{amount\+In\+Pounds }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+When called, this method adds the amount of food to the overall total food consumed by the dog. 
+\begin{DoxyParams}{Parameters}
+{\em amount\+In\+Pounds} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_dog_a0e931a4b6f915cc50bbd211024e4fd7c}{Dog}}.
+
+\mbox{\Hypertarget{class_terrier_a552b4ce2c0c5c1dd533d9a9ada162280}\label{class_terrier_a552b4ce2c0c5c1dd533d9a9ada162280}} 
+\index{Terrier@{Terrier}!speak@{speak}}
+\index{speak@{speak}!Terrier@{Terrier}}
+\doxysubsubsection{\texorpdfstring{speak()}{speak()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Terrier\+::speak (\begin{DoxyParamCaption}\item[{std\+::string}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Prints the provided text to the standard output 
+\begin{DoxyParams}{Parameters}
+{\em text} & -\/ the text to be printed \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_trainable}{Trainable}}.
+
+\mbox{\Hypertarget{class_terrier_a055bb23c21c25d698c42ce328918acf3}\label{class_terrier_a055bb23c21c25d698c42ce328918acf3}} 
+\index{Terrier@{Terrier}!speak@{speak}}
+\index{speak@{speak}!Terrier@{Terrier}}
+\doxysubsubsection{\texorpdfstring{speak()}{speak()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Terrier\+::speak (\begin{DoxyParamCaption}\item[{std\+::string}]{text,  }\item[{int}]{volume }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Prints the provided text along with the volume to the standard output in the format "{}Speaking $<$text$>$ at volume $<$volume$>$ 
+\begin{DoxyParams}{Parameters}
+{\em text} & -\/ the text to be printed \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_trainable}{Trainable}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_terrier_a696a0e2227f16baf5186cb9debc9e92d}\label{class_terrier_a696a0e2227f16baf5186cb9debc9e92d}} 
+\index{Terrier@{Terrier}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Terrier@{Terrier}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_terrier}{Terrier}} \&}]{terrier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Operator overload for printing terriers 
+\begin{DoxyParams}{Parameters}
+{\em out} & -\/ output stream \\
+\hline
+{\em terrier} & -\/ the terrier that is to be printed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Terrier.\+h\item 
+Terrier.\+cpp\end{DoxyCompactItemize}
